@@ -1,9 +1,6 @@
 % Author: Clary Rodriguez-Cruz (clarydrc@seas.upenn.edu)
 
-% Z-Zc calculation from expt. data
-% input lub without ANY filters, goodenough = 2
-% d = dimensionality
-% max,min xyz values should be 1-2 diameters from the edges
+% Z-Zc calculation from expt. or simulation data
 
 function [z_zc,ztst,track_nonrattlers,neighbors] = z_rattlers_filt(lub,L,d,sim,constantN)
 
